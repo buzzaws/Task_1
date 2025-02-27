@@ -45,7 +45,7 @@ i) Initialize a Terraform configuration
 
 terraform init
 
-ii ) Check the syntax and validity of your Terraform configuration files
+ii ) Check the syntax and validite of your Terraform configuration files
 
 terraform validate
 
@@ -60,6 +60,7 @@ terraform apply --auto-approve
 # SnapShot
 
 <img width="1512" alt="Screenshot 2025-02-27 at 11 13 45 PM" src="https://github.com/user-attachments/assets/2e4e7173-c93d-4fe1-9fc6-dc89eea6d4f6" />
+
 
 <img width="1512" alt="Screenshot 2025-02-27 at 11 16 21 PM" src="https://github.com/user-attachments/assets/f2f417ec-742f-4c99-ad41-8e5a12093083" />
 
