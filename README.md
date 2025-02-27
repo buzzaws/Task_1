@@ -42,15 +42,19 @@ export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 # Commands for terraform script:
 
 i) Initialize a Terraform configuration
+
 terraform init
 
 ii ) Check the syntax and validity of your Terraform configuration files
+
 terraform validate
 
 iii) Generate an execution plan
+
 terraform plan
 
 iv) Create Infrastructure
+
 terraform apply --auto-approve
 
 # SnapShot
