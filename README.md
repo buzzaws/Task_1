@@ -1,18 +1,21 @@
 # Task 1: Infrastructure Setup using Terraform (AWS)
 # Objective : Deploy an EC2 instance using Terraform and configure it for hosting a Docker application.
 
-#######################################################
+###########################################################
 
 Step 1: Install Terraform and configure AWS credentials
 
-## Command to install terraform in macos
+######## Command to install terraform in macos  ###########
+
 brew install terraform
 
 terraform –version
 
-# Configure AWS credentials
+##################### Configure AWS credentials  ###################
+
 ################ Install aws cli for Macos #########################
-## Command to install AWS cli in Macos
+
+############# Command to install AWS cli in Macos ##################
 
 i) curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 
