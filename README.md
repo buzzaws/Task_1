@@ -13,19 +13,20 @@ terraform –version
 
 ##################### Configure AWS credentials  ###################
 
-################ Install aws cli for Macos #########################
+i)Install aws cli for Macos 
 
-############# Command to install AWS cli in Macos ##################
+Command to install AWS cli in Macos 
 
-i) curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 
-ii) sudo installer -pkg ./AWSCLIV2.pkg -target /
+sudo installer -pkg ./AWSCLIV2.pkg -target /
 
-iii) which aws
+which aws
 
-iv) aws --version
+aws --version
 
 ## Configure aws cli
+
 aws configure
 
 Access_key
@@ -41,9 +42,9 @@ export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 
 
-##     Terraform Command to initialize and Create the infrastructure   ##
+####### Terraform Command to initialize and Create the infrastructure  #########
 
-## Commands for terraform script:
+Commands for terraform script:
 
 i) Initialize a Terraform configuration
 
