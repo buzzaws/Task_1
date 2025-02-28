@@ -4,14 +4,14 @@
 #######################################################
 Step 1: Install Terraform and configure AWS credentials
 
-# Command to install terraform in macos
+## Command to install terraform in macos
 brew install terraform
 
 terraform –version
 
 # Configure AWS credentials
 ################ Install aws cli for Macos #########################
-# Command to install AWS cli in Macos
+## Command to install AWS cli in Macos
 
 i) curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 
@@ -21,7 +21,7 @@ iii) which aws
 
 iv) aws --version
 
-# Configure aws cli
+## Configure aws cli
 aws configure
 
 Access_key
@@ -39,7 +39,7 @@ export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 
 ##     Terraform Command to initialize and Create the infrastructure   ##
 
-# Commands for terraform script:
+## Commands for terraform script:
 
 i) Initialize a Terraform configuration
 
@@ -57,7 +57,7 @@ iv) Create Infrastructure
 
 terraform apply --auto-approve
 
-# SnapShot
+## SnapShot
 
 <img width="1512" alt="Screenshot 2025-02-27 at 11 13 45 PM" src="https://github.com/user-attachments/assets/2e4e7173-c93d-4fe1-9fc6-dc89eea6d4f6" />
 
