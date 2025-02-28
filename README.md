@@ -2,6 +2,7 @@
 # Objective : Deploy an EC2 instance using Terraform and configure it for hosting a Docker application.
 
 #######################################################
+
 Step 1: Install Terraform and configure AWS credentials
 
 ## Command to install terraform in macos
